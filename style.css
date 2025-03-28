@@ -1,3 +1,8 @@
+/* Apply a bubbly font to the entire site */
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Change to a bubbly font */
+}
+
 /* Style for the CTA banner */
 .cta-banner {
   background-image: url('img/cta-bg.jpg'); /* Set the background image */
@@ -23,7 +28,7 @@
 .cta-banner h1 {
   font-size: 2.5em; /* Large font size for emphasis */
   margin-bottom: 20px; /* Space below the heading */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility */
+  text-shadow: 2px 2px 4px rgba(26, 26, 26, 0.5); /* Add shadow for better visibility */
 }
 
 /* Style for the description */
@@ -36,7 +41,7 @@ text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility
 /* Style for the call-to-action button */
 .cta-button {
   display: inline-block; /* Make the link look like a button */
-  background-color: #0288d1; /* Bright blue for visibility */
+  background-color: #78c9f5; /* Bright blue for visibility */
   color: #ffffff; /* White text for contrast */
   padding: 15px 30px; /* Add padding for a button-like appearance */
   text-decoration: none; /* Remove underline */
@@ -52,7 +57,7 @@ text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility
 
 /* Style for the site header */
 .site-header {
-  background-color: #006064; /* Dark teal background for contrast */
+  background-color: #049ba0; /* Dark teal background for contrast */
   color: #ffffff; /* White text for readability */
   text-align: center; /* Center-align text */
   padding: 20px 0; /* Add vertical padding */
@@ -82,7 +87,7 @@ text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility
   height: auto; /* Maintain aspect ratio */
   vertical-align: middle; /* Center vertically */
   margin: 0 auto; /* Center the image horizontally */
-  border: radius 15px; ; /* Add rounded corners */
+  border-radius: 20px; /* Increase border radius for more rounded corners */
 }
 
 /* Style for the text content */
@@ -98,11 +103,21 @@ text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility
 .info-section h2 {
   font-size: 1.8em; /* Medium font size for emphasis */
   margin-bottom: 15px; /* Space below the heading */
-  color: #006064; /* Dark teal for consistency */
+  color: #029ca1; /* Dark teal for consistency */
 }
 
 /* Style for the paragraph in the info section */
 .info-section p {
   font-size: 1.2em; /* Slightly larger font for readability */
   color: #333333; /* Dark gray for contrast */
+}
+
+/* Style for the site footer */
+.site-footer {
+  background-color: #02a8ae; /* Dark teal background for consistency */
+  color: #ffffff; /* White text for readability */
+  text-align: center; /* Center-align text */
+  padding: 15px 0; /* Add vertical padding */
+  font-family: Arial, sans-serif; /* Consistent font with the rest of the site */
+  font-size: 0.9em; /* Slightly smaller font size */
 }
