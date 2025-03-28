@@ -12,7 +12,7 @@ body {
   background-blend-mode: overlay; /* Blend the color with the image */
   color: #ffffff; /* White text for contrast */
   text-align: center; /* Center-align text */
-  padding: 118px 20px; /* Add space around the content */
+  padding: 117px 20px; /* Add space around the content */
   font-family: Arial, sans-serif; /* Modern, easy-to-read font */
 }
 
